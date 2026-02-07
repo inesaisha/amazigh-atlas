@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AZUL — ⴰⵣⵓⵍ</title>
+  <meta name="description" content="AZUL — Les symboles amazighs comme vous ne les avez jamais vus.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+Tifinagh:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Noise overlay -->
+  <div class="noise"></div>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <button class="lang-toggle" id="lang-toggle">ⵜⵉⴼⵉⵏⴰⵖ</button>
+    <div class="hero__content">
+      <p class="hero__eyebrow" id="hero-eyebrow">Symboles & Alphabet Amazigh</p>
+      <h1 class="hero__title" id="header-title">AZUL</h1>
+      <p class="hero__tifinagh tifinagh" id="header-subtitle">ⴰⵣⵓⵍ</p>
+      <p class="hero__tagline" id="hero-tagline">Les symboles sont la parole d'un peuple<br>qui n'a jamais cessé de s'exprimer.</p>
+    </div>
+  </header>
+
+  <!-- Search -->
+  <section class="search-section">
+    <div class="search-bar">
+      <input type="search" class="search-bar__input" id="search-input" placeholder="Rechercher..." autocomplete="off">
+    </div>
+    <p class="search-section__count" id="symbol-count"></p>
+  </section>
+
+  <!-- Symbol Grid -->
+  <main class="grid" id="symbol-grid"></main>
+
+  <!-- Alphabet Section -->
+  <section class="alphabet-section">
+    <div class="section-header">
+      <p class="section-header__eyebrow">33 lettres</p>
+      <h2 class="section-header__title" id="alphabet-title">Tifinagh</h2>
+      <p class="section-header__tifinagh tifinagh">ⵜⵉⴼⵉⵏⴰⵖ</p>
+    </div>
+    <div class="alphabet-grid" id="alphabet-grid"></div>
+  </section>
+
+  <!-- Modal Overlay -->
+  <div class="modal-overlay" id="modal-overlay"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer__brand">AZUL<span class="tifinagh"> — ⴰⵣⵓⵍ</span></p>
+    <p class="footer__tagline">Les symboles sont la parole d'un peuple<br>qui n'a jamais cessé de s'exprimer.</p>
+    <p class="footer__tifinagh tifinagh">ⵜⴰⵎⴰⵣⵉⵖⵜ ⵜⴻⴷⴷⴻⵔ</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/symbols.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
